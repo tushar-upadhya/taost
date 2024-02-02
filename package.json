@@ -1,0 +1,30 @@
+{
+  "name": "toast",
+  "version": "1.0.0",
+  "description": "toast",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tushar-upadhya/taost"
+  },
+  "keywords": [
+    "toast"
+  ],
+  "author": "Tushar Upadhyay <tusharupadhyay690@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tushar-upadhya/taost"
+  },
+  "homepage": "https://github.com/tushar-upadhya/taost",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  },
+  "files": [
+    "lib/**/*"
+  ]
+}
